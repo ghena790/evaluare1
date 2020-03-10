@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  Ex1  X <input type="number" id="x" >
+    <button id="calculateBut">+</button>
+	Y <input type="number" id="y">
+    <button id="calculateBut">=</button>
+    <span id="result" style="border: 2px solid blueviolet ">0</span>
+
+    A <input type="number" id="a">
+    B <input type="number" id="b">
+    <span id="result" style="border: 2px solid black ">=</span>
+
+   ex3 <hr>
+
+
+	<ul class="planets">
+		<li>Earth</li>
+		<li>Mars</li>
+		<li>Venera</li>
+	</ul>
+
+	
+
+    <hr>
+    NumberEx12 <input type="number" id="counter" value="0">
+  <hr>
+    <ul class="number">
+        ex5
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        ex6
+        <li id = "10">10</li>
+        </ul>
+  <hr>
+  <h1>sort massive ex9</h1>
+
+<p>pres button to sort.</p>
+
+<button onclick="myFunction()">Enter</button>
+
+<p id="demo"></p>
+<script>
+var points = [40, 100, 1, 5, 25, 10, 89, 74, 21, 13];
+document.getElementById("demo").innerHTML = points;    
+
+function myFunction() {
+    points.sort(function(a, b){return a - b});
+    document.getElementById("demo").innerHTML = points;
+}
+</script>
+  
+    <script src="./src/index.js"></script>
+</body>
+
+</html>

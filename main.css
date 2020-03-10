@@ -1,0 +1,12 @@
+ul.planets li{
+	background: yellow;
+	margin: 3px;
+	color:black;
+}
+
+ul.number li{
+	background: black;
+	margin: 6px;
+	color:white;
+}
+
